@@ -13,6 +13,22 @@
 		2D7AFB691B4D82FA00F2B40D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7AFB681B4D82FA00F2B40D /* Images.xcassets */; };
 		2D7AFB6C1B4D82FA00F2B40D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D7AFB6A1B4D82FA00F2B40D /* LaunchScreen.xib */; };
 		2D7AFB781B4D82FA00F2B40D /* iJackpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7AFB771B4D82FA00F2B40D /* iJackpotTests.swift */; };
+		2D7AFB831B4D831600F2B40D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB811B4D831600F2B40D /* Bolts.framework */; };
+		2D7AFB841B4D831600F2B40D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB821B4D831600F2B40D /* Parse.framework */; };
+		2D7AFB861B4D8DE800F2B40D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB851B4D8DE800F2B40D /* AudioToolbox.framework */; };
+		2D7AFB881B4D8DF200F2B40D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB871B4D8DF200F2B40D /* CFNetwork.framework */; };
+		2D7AFB8A1B4D8DFB00F2B40D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB891B4D8DFB00F2B40D /* CoreGraphics.framework */; };
+		2D7AFB8C1B4D8E0800F2B40D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB8B1B4D8E0800F2B40D /* CoreLocation.framework */; };
+		2D7AFB8E1B4D8E1200F2B40D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB8D1B4D8E1200F2B40D /* MobileCoreServices.framework */; };
+		2D7AFB901B4D8E2000F2B40D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB8F1B4D8E2000F2B40D /* QuartzCore.framework */; };
+		2D7AFB921B4D8E2C00F2B40D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB911B4D8E2C00F2B40D /* Security.framework */; };
+		2D7AFB941B4D8E4000F2B40D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB931B4D8E4000F2B40D /* StoreKit.framework */; };
+		2D7AFB961B4D8E5800F2B40D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB951B4D8E5800F2B40D /* SystemConfiguration.framework */; };
+		2D7AFB981B4D8E6400F2B40D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB971B4D8E6400F2B40D /* libz.dylib */; };
+		2D7AFB9A1B4D8E8800F2B40D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB991B4D8E8800F2B40D /* libsqlite3.dylib */; };
+		2D7AFB9C1B4D8E9200F2B40D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB9B1B4D8E9200F2B40D /* Accounts.framework */; };
+		2D7AFB9E1B4D8E9C00F2B40D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7AFB9D1B4D8E9C00F2B40D /* Social.framework */; };
+		2D7AFBA21B4D900C00F2B40D /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7AFBA11B4D900C00F2B40D /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,23 @@
 		2D7AFB711B4D82FA00F2B40D /* iJackpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iJackpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7AFB761B4D82FA00F2B40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D7AFB771B4D82FA00F2B40D /* iJackpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iJackpotTests.swift; sourceTree = "<group>"; };
+		2D7AFB811B4D831600F2B40D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = iJackpot/Bolts.framework; sourceTree = "<group>"; };
+		2D7AFB821B4D831600F2B40D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = iJackpot/Parse.framework; sourceTree = "<group>"; };
+		2D7AFB851B4D8DE800F2B40D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D7AFB871B4D8DF200F2B40D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2D7AFB891B4D8DFB00F2B40D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D7AFB8B1B4D8E0800F2B40D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2D7AFB8D1B4D8E1200F2B40D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2D7AFB8F1B4D8E2000F2B40D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D7AFB911B4D8E2C00F2B40D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2D7AFB931B4D8E4000F2B40D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2D7AFB951B4D8E5800F2B40D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2D7AFB971B4D8E6400F2B40D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2D7AFB991B4D8E8800F2B40D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2D7AFB9B1B4D8E9200F2B40D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		2D7AFB9D1B4D8E9C00F2B40D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2D7AFBA01B4D8FCF00F2B40D /* iJackpot-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iJackpot-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D7AFBA11B4D900C00F2B40D /* Tickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7AFB9E1B4D8E9C00F2B40D /* Social.framework in Frameworks */,
+				2D7AFB9C1B4D8E9200F2B40D /* Accounts.framework in Frameworks */,
+				2D7AFB9A1B4D8E8800F2B40D /* libsqlite3.dylib in Frameworks */,
+				2D7AFB981B4D8E6400F2B40D /* libz.dylib in Frameworks */,
+				2D7AFB961B4D8E5800F2B40D /* SystemConfiguration.framework in Frameworks */,
+				2D7AFB941B4D8E4000F2B40D /* StoreKit.framework in Frameworks */,
+				2D7AFB921B4D8E2C00F2B40D /* Security.framework in Frameworks */,
+				2D7AFB901B4D8E2000F2B40D /* QuartzCore.framework in Frameworks */,
+				2D7AFB8E1B4D8E1200F2B40D /* MobileCoreServices.framework in Frameworks */,
+				2D7AFB8C1B4D8E0800F2B40D /* CoreLocation.framework in Frameworks */,
+				2D7AFB8A1B4D8DFB00F2B40D /* CoreGraphics.framework in Frameworks */,
+				2D7AFB881B4D8DF200F2B40D /* CFNetwork.framework in Frameworks */,
+				2D7AFB861B4D8DE800F2B40D /* AudioToolbox.framework in Frameworks */,
+				2D7AFB841B4D831600F2B40D /* Parse.framework in Frameworks */,
+				2D7AFB831B4D831600F2B40D /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				2D7AFB611B4D82FA00F2B40D /* AppDelegate.swift */,
+				2D7AFBA01B4D8FCF00F2B40D /* iJackpot-Bridging-Header.h */,
+				2D7AFBA11B4D900C00F2B40D /* Tickets.swift */,
 				2D7AFB631B4D82FA00F2B40D /* ViewController.swift */,
 				2D7AFB651B4D82FA00F2B40D /* Main.storyboard */,
 				2D7AFB681B4D82FA00F2B40D /* Images.xcassets */,
+				2D7AFB9F1B4D8EB300F2B40D /* Frameworks */,
 				2D7AFB6A1B4D82FA00F2B40D /* LaunchScreen.xib */,
 				2D7AFB5F1B4D82FA00F2B40D /* Supporting Files */,
 			);
@@ -110,6 +161,29 @@
 				2D7AFB761B4D82FA00F2B40D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D7AFB9F1B4D8EB300F2B40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D7AFB811B4D831600F2B40D /* Bolts.framework */,
+				2D7AFB821B4D831600F2B40D /* Parse.framework */,
+				2D7AFB9D1B4D8E9C00F2B40D /* Social.framework */,
+				2D7AFB9B1B4D8E9200F2B40D /* Accounts.framework */,
+				2D7AFB991B4D8E8800F2B40D /* libsqlite3.dylib */,
+				2D7AFB971B4D8E6400F2B40D /* libz.dylib */,
+				2D7AFB951B4D8E5800F2B40D /* SystemConfiguration.framework */,
+				2D7AFB931B4D8E4000F2B40D /* StoreKit.framework */,
+				2D7AFB911B4D8E2C00F2B40D /* Security.framework */,
+				2D7AFB8F1B4D8E2000F2B40D /* QuartzCore.framework */,
+				2D7AFB8D1B4D8E1200F2B40D /* MobileCoreServices.framework */,
+				2D7AFB8B1B4D8E0800F2B40D /* CoreLocation.framework */,
+				2D7AFB891B4D8DFB00F2B40D /* CoreGraphics.framework */,
+				2D7AFB871B4D8DF200F2B40D /* CFNetwork.framework */,
+				2D7AFB851B4D8DE800F2B40D /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7AFB641B4D82FA00F2B40D /* ViewController.swift in Sources */,
+				2D7AFBA21B4D900C00F2B40D /* Tickets.swift in Sources */,
 				2D7AFB621B4D82FA00F2B40D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iJackpot",
+				);
 				INFOPLIST_FILE = iJackpot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +431,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iJackpot",
+				);
 				INFOPLIST_FILE = iJackpot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
