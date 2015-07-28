@@ -24,7 +24,7 @@ class Tickets: PFObject, PFSubclassing {
     @NSManaged var winStatus: Bool
     @NSManaged var winAmount: String
     
-    
+    //Yo
     
     
     
